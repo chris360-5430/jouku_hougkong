@@ -1,0 +1,139 @@
+body{
+  height: 100%;
+}
+nav a{
+  text-decoration: none;
+  color: inherit;
+}
+nav img.icon{
+    width: 150px;
+}
+
+nav span p.title-chinese{
+    line-height: 1px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+#nav-link {
+  font-size: 30px;
+}
+
+#intro{
+    background-image: url('../img/intro_background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay; 
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: white; /* 文字顏色 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+p,a ,input,label,textarea,span,ul,li{
+  font-family: "Open Sans", sans-serif;
+}
+
+#intro h2{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 30px;    
+    
+}
+#intro h1{
+  font-size: 65px;
+  font-weight: 500;
+  font-weight: bold;
+  padding: 30px;
+    
+}
+
+#promote-training{
+    background-image: url('../img/2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode: overlay; 
+    position: relative;
+  padding-top: 80px;
+}
+.col-md-12{
+  padding: 0px;
+}
+
+.col-md-6{
+  padding: 0px;
+}
+
+#promote-training, h3{
+ line-height: 1.5;
+ margin-bottom: 40px;
+ 
+}
+
+#promote-training img {
+ width: 100%;
+ padding-left: 40px;
+}
+#promote-training video {
+padding: 40px;
+width: 100%
+}
+
+#promote-team{
+    background-image: url('../img/2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode: overlay; 
+    position: relative;
+      padding-top: 80px;
+      padding-bottom: 80px;
+}
+
+#promote-team h3{
+ line-height: 1.5;
+ margin-bottom: 40px;
+}
+
+#promote-team img {
+ width: 100%;
+ height: 85%;
+ padding-left: 40px;
+ padding-top: 20px;
+ padding-bottom: 60px;
+}
+#promote-team video {
+padding-top: 60px;
+padding-left: 40px;
+width: 100%
+}
+
+#club-intro-img{
+    background-image: url("../img/club-intro-img.jpg");
+    height: 500%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#club-intro-img .col-md-3 {
+  height: 500px; /* 為內容提供高度，這樣可以看到捲動效果 */
+    padding: 20px; /* 內邊距 */
+}
+#club-intro-img h2{
+  font-size: 85px;
+  font-weight: 1000;
+  font-weight: bold;
+  padding: 30px;
+  line-height: 1000px;
+  color: black;
+  padding: 20px; 
+}
+
